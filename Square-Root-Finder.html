@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Square Root Finder</title>
+  </head>
+  <style media="screen">
+    body{
+      background: pink;
+    }
+    h1{
+      font-family: cursive;
+    }
+    button{
+      background: yellow;
+      color: orange;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <h1>Square Root Finder</h1>
+    <button type="button" name="button" onclick="l()">Click To Find</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>By akips.github.io</p>
+    <script type="text/javascript">
+      function l() {
+        var i = prompt("Enter a number");
+        alert("Answer is "+Math.sqrt(i));
+      }
+    </script>
+  </body>
+</html>
